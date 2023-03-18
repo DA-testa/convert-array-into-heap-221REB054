@@ -41,7 +41,7 @@ def main():
 
     # input from a file
     if "F" in test:
-        fails = "test/" + input("File: ")
+        fails = "tests/" + input("File: ")
         with open(fails, "r") as file:
             n = int(file.readline())
             data = (list(map(int, file.readline().split())))
